@@ -1,0 +1,21 @@
+Package: geoTwitter
+Type: Package
+Title: Package for location analysis of Twitter and similar data
+Version: 1.0
+Date: 2013-03-20
+Author: Andy Galdi, Robert MacNguyen, Paavni Rattan
+Maintainer: Andy Galdi<andy.galdi@gmail.com>, Robert
+        MacNguyen<rmacnguyen@gmail.com>, Paavni Rattan
+        <rattan.paavni@gmail.com>
+Description: This is a package for location analysis of data from Twitter or similar social networks. It implements methods to query twitter data and obtain location information . It also includes methods to process the location text and query the cleaned location using GeoNames, a geographical database. The package provides methods to analyze and plot the location data from twitter.  
+Depends: R (>= 2.15),RCurl (>= 1.95-4.1), httr (>= 0.2), rjson (>=
+        0.2.12), ROAuth (>= 0.9.2), ggplot2 (>= 0.9.3.1), tkrplot (>=
+        0.0-23), tcltk, ff (>= 2.2-11), streamR (>= 0.1), twitteR (>=
+        1.1.0), sp (>= 1.0-6), geosphere (>= 1.2-28), maps (>= 2.3-2),
+        maptools (>= 0.8-23)
+Imports: RCurl (>= 1.95-4.1), httr (>= 0.2), rjson (>= 0.2.12), ROAuth
+        (>= 0.9.2), ggplot2 (>= 0.9.3.1), tkrplot (>= 0.0-23), tcltk,
+        ff (>= 2.2-11), streamR (>= 0.1), twitteR (>= 1.1.0), sp (>=
+        1.0-6), geosphere (>= 1.2-28), maps (>= 2.3-2)
+License: GPL
+Packaged: 2013-03-21 18:17:24 UTC; agaldi
